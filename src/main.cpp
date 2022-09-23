@@ -36,5 +36,5 @@ void loop() {
   Serial.println("Digitized Value of " + String(int(iVal)) + " is equavalent to a temparature of " + String(temperature) +" which is " + statement); 
  
   // wait 0.5 seconds (500 ms) 
-  delay(500); 
+  delay(2000); 
 }
