@@ -1,3 +1,7 @@
+/**
+  I, Alec Pasion, 000811377 certify that this material is my original work. No other person's work has been used
+  without due acknowledgement.
+**/
 #include <Arduino.h>
 #include <math.h>
 void setup() {
