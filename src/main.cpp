@@ -12,7 +12,7 @@ void loop() {
   // read digitized value from the D1 Mini's A/D convertor  
   iVal = analogRead(A0);
 
-  float temperature = map(iVal,0,pow(2,10),0,1000)/50.00;
+  float temperature = map(iVal,0,pow(2,10),0,1000)/50.00 * 2.5;
   String statement = "";
   if(temperature < 10){
     statement = "cold!";
